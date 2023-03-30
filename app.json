@@ -15,16 +15,37 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "sdkVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.expo_test",
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "account-username"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "33ce8f10-8031-4e68-b832-baea28f3c21b"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/33ce8f10-8031-4e68-b832-baea28f3c21b"
     }
   }
 }
