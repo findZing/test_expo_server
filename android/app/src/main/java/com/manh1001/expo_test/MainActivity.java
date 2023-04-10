@@ -1,4 +1,4 @@
-package com.anonymous.expo_test;
+package com.manh1001.expo_test;
 
 import android.os.Build;
 import android.os.Bundle;

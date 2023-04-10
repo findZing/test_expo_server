@@ -1,34 +1,11 @@
 {
-  "cli": {
-    "version": ">= 3.8.1"
-  },
-  "build": {
-    "development": {
-      "distribution": "internal",
-      "android": {
-        "gradleCommand": ":app:assembleDebug"
+    "build": {
+      "preview": {
+        "distribution": "internal",
+        "channel": "preview"
       },
-      "ios": {
-        "buildConfiguration": "Debug",
-        "resourceClass": "m-medium"
-      },
-      "channel": "development"
-    },
-    "preview": {
-      "distribution": "internal",
-      "ios": {
-        "resourceClass": "m-medium"
-      },
-      "channel": "preview"
-    },
-    "production": {
-      "ios": {
-        "resourceClass": "m-medium"
-      },
-      "channel": "production"
+      "production": {
+        "channel": "production"
+      }
     }
-  },
-  "submit": {
-    "production": {}
   }
-}

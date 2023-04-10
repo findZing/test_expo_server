@@ -15,37 +15,30 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "runtimeVersion": {
-        "policy": "sdkVersion"
-      }
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.anonymous.expo_test",
-      "runtimeVersion": "1.0.0"
+      "package": "com.manh1001.expo_test"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      [
-        "expo-updates",
-        {
-          "username": "account-username"
-        }
-      ]
-    ],
     "extra": {
       "eas": {
         "projectId": "33ce8f10-8031-4e68-b832-baea28f3c21b"
       }
     },
+    "owner": "manh1001",
     "updates": {
-      "url": "https://u.expo.dev/33ce8f10-8031-4e68-b832-baea28f3c21b"
-    }
+      "url": "https://u.expo.dev/33ce8f10-8031-4e68-b832-baea28f3c21b",
+      "requestHeaders": {
+        "expo-channel-name": "main"
+      }
+    },
+    "runtimeVersion": "1.0.0"
   }
 }
