@@ -6,12 +6,12 @@ import { Button, StyleSheet, Text, View } from "react-native";
 import axios from "axios";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { NavigationContainer } from "@react-navigation/native";
-import RecordingScreen from "./screen/RecordingScreen";
-import HandleFileScreen from "./screen/HandleFileScreen";
+import RecordingScreen from "./screens/RecordingScreen";
+import HandleFileScreen from "./screens/HandleFileScreen";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import * as Updates from 'expo-updates';
 
-const urlServer = 'https://9553-27-76-236-105.ngrok-free.app'
+// const urlServer = 'https://9553-27-76-236-105.ngrok-free.app'
 
 const Tab = createBottomTabNavigator()
 export default function App() {

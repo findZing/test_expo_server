@@ -21,32 +21,10 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.manh1001.client"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "plugin": [
-      [
-        "expo-av",
-        {
-          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone."
-        }
-      ]
-    ],
-    "updates": {
-      "requestHeaders": {
-        "expo-channel-name": "main"
-      },
-      "url": "https://u.expo.dev/062d77d2-b44c-4fda-bb67-dd0940294b81"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "062d77d2-b44c-4fda-bb67-dd0940294b81"
-      }
-    },
-    "owner": "manh1001",
-    "runtimeVersion": "1.0.0"
+    }
   }
 }
